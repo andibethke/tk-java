@@ -1,0 +1,25 @@
+package andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Mensch{
+	private String name;
+	private double größe, gewicht;
+	
+	public void esse() {
+		gewicht++;
+	}
+	public void bewegDich() {
+		gewicht--;
+	}
+	
+	public boolean zuDick() {
+		return gewicht/(größe*größe) > 24;
+	}
+}

@@ -1,0 +1,41 @@
+package de.tk.andi;
+
+/**
+ * 
+ * @author andi_
+ *
+ */
+
+public class Start {
+
+	//Zeilenkommentar
+	/*
+	 * Bereichskommentar
+	 */
+	/**
+	 * Dokumentationskommentar
+	 * @param args Consolenparameter
+	 * @author andi
+	 * @
+	 */
+	public static void main(String[] args) {
+		Integer i2=234;
+		Boolean b=true;
+		Float f=234.23f;
+		String s="dfgfgd";
+		Character c='d';
+		
+		//+ - / * % =
+		//++ -- += -= *=
+		//Logische: > < >= <= == ! !=   && ||
+		//Bit: | & << >>
+		
+		int i=5;
+		if(3>2 | i++<6);
+		
+		System.out.println(i);
+		
+		
+	}
+
+}

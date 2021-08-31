@@ -1,0 +1,17 @@
+package de.andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		A a=new A();
+		
+	}
+}
+
+class A //extends Object
+{  
+	public A() {
+		System.out.println("Ein neues A wird geboren...");
+	}
+}
+

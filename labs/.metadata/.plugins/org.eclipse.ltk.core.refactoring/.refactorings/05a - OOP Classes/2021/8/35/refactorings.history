@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;de.andi.EineKlasse.an&apos; in &apos;de.andi.EineKlasse&apos;&#x0D;&#x0A;- Original project: &apos;05a - OOP Classes&apos;&#x0D;&#x0A;- Original element: &apos;de.andi.EineKlasse.an&apos;&#x0D;&#x0A;- Getter method name: &apos;isAn&apos;&#x0D;&#x0A;- Setter method name: &apos;setAn&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;an&apos;" flags="589830" getter="isAn" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;de.andi{EineKlasse.java[EineKlasse^an" insertion="1" setter="setAn" stamp="1630396108935" version="1.0" visibility="1"/>
+</session>

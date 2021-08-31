@@ -1,0 +1,5 @@
+package de.andi;
+
+public class A {
+	private int wert=0;
+}

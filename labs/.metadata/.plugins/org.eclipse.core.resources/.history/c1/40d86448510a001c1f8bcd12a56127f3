@@ -1,0 +1,18 @@
+package de.andi;
+
+import java.io.File;
+
+public class Start {
+
+	public static void main(String[] args) {
+		File[] files=new File("c:/windows/system32").listFiles((d,n)->n.endsWith(".exe"));
+		
+		
+		for (File f : files) {
+			System.out.printf("%50s  (%d Bytes)\n",f.getName(),f.length());
+		}
+		
+		
+	}
+
+}

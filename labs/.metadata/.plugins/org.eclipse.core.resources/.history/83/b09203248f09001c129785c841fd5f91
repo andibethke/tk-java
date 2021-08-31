@@ -1,0 +1,14 @@
+package de.tk.ab.hm;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DasSpielTest {
+
+	@Test
+	void testDasSpiel() {
+		fail("Not yet implemented");
+	}
+
+}

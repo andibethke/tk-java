@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"de.tk.andi","c":"Start","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"de.tk.andi","c":"Start","l":"Start()","url":"%3Cinit%3E()"}]

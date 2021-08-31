@@ -1,0 +1,79 @@
+package andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		Mensch andi=new Vip("Andi",1.86,95);
+		
+		
+		while (andi.zuDick()) {
+			System.out.println(andi);
+			System.out.println("1 h Sport machen");
+			andi.bewegDich();
+		}
+		System.out.println(andi);
+	}
+
+}
+
+class Vip extends Mensch
+{
+
+	public Vip(String name, double größe, double gewicht) {
+		super(name, größe, gewicht);
+	}
+	@Override
+	public boolean zuDick() {
+		return getGewicht()/(getGröße()*getGröße()) > 27;
+	}
+	
+}
+
+
+
+class Mensch{
+	private String name;
+	private double größe, gewicht;
+	
+	public Mensch(String name, double größe, double gewicht) {
+		super();
+		this.name = name;
+		this.größe = größe;
+		this.gewicht = gewicht;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getGröße() {
+		return größe;
+	}
+	public void setGröße(double größe) {
+		this.größe = größe;
+	}
+	public double getGewicht() {
+		return gewicht;
+	}
+	public void setGewicht(double gewicht) {
+		this.gewicht = gewicht;
+	}
+	
+	
+	public void esse() {
+		gewicht++;
+	}
+	public void bewegDich() {
+		gewicht--;
+	}
+	
+	public boolean zuDick() {
+		return gewicht/(größe*größe) > 24;
+	}
+	@Override
+	public String toString() {
+		return String.format("%s ist %s", name, zuDick()?"zu Dick!":"wohl genährt...");
+	}
+}

@@ -1,0 +1,26 @@
+package de.tk.plz.console;
+
+import java.util.Scanner;
+
+import de.tk.plz.business.PlzMgr;
+import de.tk.plz.models.PlzModel;
+
+public class Start {
+
+	public static void main(String[] args) throws Exception{
+		
+		PlzMgr mgr=new PlzMgr();
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Ort: ");
+		String ort=sc.next();
+		
+		
+
+		for (PlzModel p : mgr.getPlzs(x->x.getOrt().contains(ort))) {
+			System.out.printf("%6s %-20s %-40s %-20s\n",
+					p.getPlz(), p.getOrt(),p.getLandkreis(), p.getBundesland());
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package de.zk.prim;
+
+import java.util.Scanner;
+
+public class Start {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("von: ");
+		int von=sc.nextInt();
+		System.out.print("bis: ");
+		int bis=sc.nextInt();
+		
+		for (int i = von; i <=bis; i++) {
+			System.out.println(i);
+		}
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package de.tk.andi;
+
+public class Start {
+
+	//Zeilenkommentar
+	/*
+	 * Bereichskommentar
+	 */
+	/**
+	 * Dokumentationskommentar
+	 * @param args Consolenparameter
+	 * @author andi
+	 * @
+	 */
+	public static void main(String[] args) {
+	}
+
+}

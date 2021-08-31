@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;de.andi.STart&apos; to &apos;Start&apos;&#x0D;&#x0A;- Original project: &apos;06 - Lambda&apos;&#x0D;&#x0A;- Original element: &apos;de.andi.STart&apos;&#x0D;&#x0A;- Renamed element: &apos;de.andi.Start&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;STart&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;de.andi{STart.java[STart" matchStrategy="1" name="Start" qualified="false" references="true" similarDeclarations="false" stamp="1630408757777" textual="false" version="1.0"/>
+</session>

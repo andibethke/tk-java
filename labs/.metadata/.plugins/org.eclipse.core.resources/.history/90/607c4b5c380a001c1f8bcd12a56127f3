@@ -1,0 +1,7 @@
+package de.andi;
+
+public class Singleton {
+	private Singleton() {
+		// TODO Auto-generated constructor stub
+	}
+}

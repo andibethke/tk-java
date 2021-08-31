@@ -1,0 +1,28 @@
+package de.andi;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class Start {
+
+	public static void main(String[] args) {
+		String[] names= {"Iryna","Fabian","Jakob","Elsa","Dennis","Andi"};
+		
+		Arrays.sort(names, new MeinNachLängerSortierer());
+		
+		for (String n : names) {
+			System.out.println(n);
+		}
+		
+	}
+
+}
+
+class MeinNachLängerSortierer implements Comparator{
+
+	@Override
+	public int compare(Object o1, Object o2) {
+		return o1.toString().length()<o2.toString().length()?-1:1;
+	}
+	
+}

@@ -1,0 +1,14 @@
+package de.andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		String[] names= {"Iryna","Fabian","Jakob","Elsa","Dennis","Andi"};
+		
+		for (String n : names) {
+			System.out.println(n);
+		}
+		
+	}
+
+}

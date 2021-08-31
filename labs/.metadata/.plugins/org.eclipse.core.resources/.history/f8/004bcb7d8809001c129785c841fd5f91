@@ -1,0 +1,54 @@
+package andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		Mensch andi=new Mensch();
+		andi.setName("Andi"); andi.setGewicht(95); andi.setGröße(1.86);
+		
+		System.out.println(andi);
+	}
+
+}
+
+class Mensch{
+	private String name;
+	private double größe, gewicht;
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getGröße() {
+		return größe;
+	}
+	public void setGröße(double größe) {
+		this.größe = größe;
+	}
+	public double getGewicht() {
+		return gewicht;
+	}
+	public void setGewicht(double gewicht) {
+		this.gewicht = gewicht;
+	}
+	
+	
+	public void esse() {
+		gewicht++;
+	}
+	public void bewegDich() {
+		gewicht--;
+	}
+	
+	public boolean zuDick() {
+		return gewicht/(größe*größe) > 24;
+	}
+	@Override
+	public String toString() {
+		return String.format("%s ist %s", name, zuDick()?"zu Dick!":"wohl genährt...");
+	}
+}

@@ -1,0 +1,14 @@
+package de.andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+interface Artikel{
+	public void setEk(double val);
+	public double getEk();
+}

@@ -1,0 +1,31 @@
+package de.andi;
+
+public class EineKlasse {
+	//Felder
+	public String pubField;
+	private String privField;
+	protected String protField;
+	private boolean an;
+	//PropertyMethods / Accessoren
+	public String getPrivField() {
+		return privField;
+	}
+	public void setPrivField(String privField) throws Exception {
+		if(privField.length()<2)
+			throw new Exception("Zu kurz...");
+		
+		this.privField=this.privField.substring(0,1).toUpperCase()+
+							this.privField.substring(1);
+		
+		this.privField = privField;
+	}
+	public boolean isAn() {
+		return an;
+	}
+	public void setAn(boolean an) {
+		this.an = an;
+	}
+	//
+	
+	
+}

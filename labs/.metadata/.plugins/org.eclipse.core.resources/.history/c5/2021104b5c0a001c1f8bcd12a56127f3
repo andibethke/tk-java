@@ -1,0 +1,19 @@
+package de.tk.plz.console;
+
+import de.tk.plz.business.PlzMgr;
+import de.tk.plz.models.PlzModel;
+
+public class Start {
+
+	public static void main(String[] args) throws Exception{
+		
+		PlzMgr mgr=new PlzMgr();
+
+		for (PlzModel p : mgr.getPlzs()) {
+			System.out.printf("%6s %20s %20s %20s\n",
+					p.getPlz(), p.getOrt(),p.getLandkreis(), p.getBundesland());
+		}
+
+	}
+
+}

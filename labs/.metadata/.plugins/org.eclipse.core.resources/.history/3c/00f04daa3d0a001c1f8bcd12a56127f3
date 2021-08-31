@@ -1,0 +1,29 @@
+package de.andi;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Start {
+
+	public static void main(String[] args) {
+		List<Artikel> lager=new ArrayList<Artikel>();
+		
+		
+		
+		System.out.printf("Lagerwert: %.2f €",
+				lager.stream().map(x->x.getVk()).collect(Collectors.summingDouble(x->x)));
+		
+	}
+}
+
+abstract class Artikel{
+	private double ek=0;
+
+	public Artikel(double ek) {
+		super();
+		this.ek = ek;
+	}
+	
+	public abstract double getVk();
+}

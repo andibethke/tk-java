@@ -1,0 +1,28 @@
+package de.andi;
+
+public class Start {
+
+	public static void main(String[] args) {
+		//Dennis
+		ElsasKlasse ek=new ElsasKlasse();
+		System.out.printf("Summe: %d\n", ek.getSumme());
+		System.out.printf("MW: %d\n", ek.getMW());
+		
+		
+	}
+
+}
+
+
+class ElsasKlasse{
+	private int a=222,b=444;
+	
+	public int getSumme() {
+		return a+b;
+	}
+	public int getMW() {
+		return (a+b)/2;
+	}
+	
+	
+}
