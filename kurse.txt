@@ -1,0 +1,8 @@
+Australien;AUD;Dollar;1.6088
+Brasilien;BRL;Real;6.0886
+Bulgarien;BGN;Lew;1.9558
+China;CNY;Yuan;7.6421
+Dänemark;DKK;Krone;7.4361
+Großbritannien;GBP;Pfund;0.8586
+Hongkong;HKD;Dollar;9.1907
+Vereinigte Staaten von Amerika;USD;Dollar;1.1817
