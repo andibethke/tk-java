@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="de.tk.FirstController">
+   <children>
+   		<Label prefHeight="215.0" prefWidth="183.0" text="Hallo..." />
+    	<Button  text="Button" />
+   </children>
+</StackPane>

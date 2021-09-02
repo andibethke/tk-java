@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="517.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.tk.SampleController">
+   <top>
+      <Label fx:id="theLabel" text="Hallo TK" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <Button mnemonicParsing="false" onAction="#buttonClick" text="Button" BorderPane.alignment="CENTER" />
+   </center>
+   
+</BorderPane>

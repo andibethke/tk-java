@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="de.tk.bmi.BmiController">
+	<padding>
+		<Insets bottom="10" left="25" right="25" top="25" />
+	</padding>
+   <children>
+   	<Text text="Brechen Deinen BMI" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0" />
+   	
+   	<Label text="Größe:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+   	<TextField fx:id="txGroesse" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   
+   	<Label text="Gewicht:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+   	<TextField fx:id="txGewicht" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   	
+   	<Slider fx:id="sl" max="150" min="50" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+   	
+   	<HBox alignment="BOTTOM_RIGHT" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+      <children>
+      		<Button onAction="#handleBerechneButtonAction" text="Berechne" />
+      </children>
+   	</HBox>
+   	
+   	<Text fx:id="txAusgabe" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+	
+</GridPane>
