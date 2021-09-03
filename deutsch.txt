@@ -186705,7 +186705,6 @@ sitzend
 sitzenden
 sitzt
 sk
-sk         bip0         Jul  9 08:59
 skaliert
 skalierten
 skalierter

@@ -20,6 +20,7 @@ public class Start {
 		
 		Statement stmt=con.createStatement();
 		
+		
 		ResultSet rs=stmt.executeQuery("select * from Products where unitprice>50");
 		
 		while (rs.next()) {

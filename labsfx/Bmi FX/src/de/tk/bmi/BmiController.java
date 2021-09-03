@@ -37,6 +37,7 @@ public class BmiController {
 	@FXML
 	protected void handleBerechneButtonAction() {
 		try {
+			Thread.sleep(5000);
 			mensch.setGroesse(Double.parseDouble(txGroesse.getText()));
 			mensch.setGewicht(Double.parseDouble(txGewicht.getText()));
 			txAusgabe.setText(String.format("Dein Bmi ist %.2f", mensch.getBmi()));
